@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>Login</title>
+{% endblock %}
+
+{% block body %}
+    <div class='container'>
+        <h1>MatchXHobby!</h1>
+        <h2>Login</h2>
+        <form mthod='POST'>
+            <table>
+                <tr>
+                    <td><label for="exampleInputEmail1">Email Address:</label></td>
+                    <td><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></td>
+                </tr>
+                <tr>
+                    <td><label for="exampleInputPassword1">Password:</label></td>
+                    <td><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit" class="btn btn-primary">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+{% endblock %}
